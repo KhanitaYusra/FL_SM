@@ -39,7 +39,7 @@ st.title(":green[_Financial Perspective and Share Market Analysis_]")
 
 def home():
     
-    a_link = st.multiselect("choose a link", ['https://yusra.shinyapps.io/Final_project_sm/','https://docs.streamlit.io/library/api-reference/widgets'])
+    a_link = st.multiselect("choose a link", ['https://yusra.shinyapps.io/Final_project_sm/','https://github.com/KhanitaYusra/FL_SM'])
     text='check out this [link]({link})'.format(link=a_link)
     st.markdown(a_link,unsafe_allow_html=True)
 
